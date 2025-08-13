@@ -92,11 +92,13 @@ for i in range(8):
     
 st.dataframe(my_dict)
 
-
+# path='Project2/model.pkl'
 # url2="https://github.com/AyushDhiman2005/Flight_Price_Prediction_ML_Model/blob/main/Project2/model.pkl"
 # response=requests.get(url2)
 
-with open("Project2/model.pkl","rb")as f:
+
+
+with open('Project2/model.pkl',"rb")as f:
     chatGPT=pickle.load(f)
 
 chatGPT = pk.load(response.content)
