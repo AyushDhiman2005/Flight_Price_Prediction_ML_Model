@@ -94,7 +94,7 @@ st.dataframe(my_dict)
 
 
 
-f=open("model.pkl",'rb')
+f=open("https://github.com/AyushDhiman2005/Flight_Price_Prediction_ML_Model/blob/main/Project2/model.pkl",'rb')
 chatGPT = pk.load(f)
 data=ipn.final_y(to_predict)
 result = round(chatGPT.predict([data])[0],1)
