@@ -1,0 +1,5 @@
+City: {'Delhi': 1, 'Mumbai': 2, 'Bangalore': 3, 'Kolkata': 4, 'Hyderabad': 5, 'Chennai': 6}
+Departure: {'Evening': 1, 'Early_Morning': 2, 'Morning': 3, 'Afternoon': 4, 'Night': 5, 'Late_Night': 6}
+Stops: {'zero': 1, 'one': 2, 'two_or_more': 3}
+Arrival: {'Evening': 1, 'Early_Morning': 2, 'Morning': 3, 'Afternoon': 4, 'Night': 5, 'Late_Night': 6}
+class: {'Economy': 1, 'Business': 2}
