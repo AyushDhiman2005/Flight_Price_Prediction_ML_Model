@@ -1,8 +1,8 @@
 import streamlit as st
 import important_functions as ipn
 import pandas as pd
-import pickle as pk
-import requests
+import pickle 
+# import requests
 
 
 st.title("Flight Price Prediction")
@@ -93,9 +93,17 @@ for i in range(8):
 st.dataframe(my_dict)
 
 
-url2="https://github.com/AyushDhiman2005/Flight_Price_Prediction_ML_Model/blob/main/Project2/model.pkl"
-response=requests.get(url2)
+# url2="https://github.com/AyushDhiman2005/Flight_Price_Prediction_ML_Model/blob/main/Project2/model.pkl"
+# response=requests.get(url2)
+
+with open("model.pkl","rb")as f:
+    chatGPT=pickle.load(f)
+
 chatGPT = pk.load(response.content)
+
+
+
+
 data=ipn.final_y(to_predict)
 result = round(chatGPT.predict([data])[0],1)
 
