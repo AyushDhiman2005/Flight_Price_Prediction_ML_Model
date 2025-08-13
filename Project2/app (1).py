@@ -101,7 +101,7 @@ st.dataframe(my_dict)
 with open('Project2/model.pkl',"rb")as f:
     chatGPT=pickle.load(f)
 
-chatGPT = pk.load(response.content)
+
 
 
 
