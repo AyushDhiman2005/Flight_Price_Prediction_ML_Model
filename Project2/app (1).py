@@ -92,7 +92,9 @@ for i in range(8):
 st.dataframe(my_dict)
 
 
-f=open('model.pkl','rb')
+file_path = '/mount/src/flight_price_prediction_ml_model/Project2/model.pkl'
+
+f=open(file_path,'rb')
 chatGPT = pk.load(f)
 data=ipn.final_y(to_predict)
 result = round(chatGPT.predict([data])[0],1)
