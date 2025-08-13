@@ -92,7 +92,7 @@ for i in range(8):
 st.dataframe(my_dict)
 
 
-file_path = '''model.pkl'''
+file_path='''model.pkl'''
 
 f=open(file_path,'rb')
 chatGPT = pk.load(f)
