@@ -2,5 +2,6 @@ pandas
 streamlit
 scikit-learn
 pickle
+requests
 
 
