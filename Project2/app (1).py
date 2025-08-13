@@ -92,9 +92,9 @@ for i in range(8):
 st.dataframe(my_dict)
 
 
-file_path='''model.pkl'''
 
-f=open(file_path,'rb')
+
+f=open('model.pkl','rb')
 chatGPT = pk.load(f)
 data=ipn.final_y(to_predict)
 result = round(chatGPT.predict([data])[0],1)
