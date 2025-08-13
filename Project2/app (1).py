@@ -94,7 +94,7 @@ st.dataframe(my_dict)
 
 
 
-f=open('model.pkl','rb')
+f=open("model.pkl",'rb')
 chatGPT = pk.load(f)
 data=ipn.final_y(to_predict)
 result = round(chatGPT.predict([data])[0],1)
