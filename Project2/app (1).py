@@ -92,7 +92,7 @@ for i in range(8):
 st.dataframe(my_dict)
 
 
-file_path = '/mount/src/flight_price_prediction_ml_model/Project2/model.pkl'
+file_path = '''model.pkl'''
 
 f=open(file_path,'rb')
 chatGPT = pk.load(f)
