@@ -14,8 +14,7 @@ st.image(url)
 st.divider()
 
 st.sidebar.title("Flights")
-st.sidebar.image("https://media.istockphoto.com/id/1526986072/photo/airplane-flying-over-tropical-sea-at-sunset.jpg?s=612x612&w=0&k=20&c=Ccvg3BqlqsWTT0Mt0CvHlbwCuRjPAIWaCLMKSl3PCks=")
-
+st.sidebar.image("https://media.istockphoto.com/id/155439315/photo/passenger-airplane-flying-above-clouds-during-sunset.jpg?s=612x612&w=0&k=20&c=LJWadbs3B-jSGJBVy9s0f8gZMHi2NvWFXa3VJ2lFcL0=")
 initial_city=st.sidebar.selectbox(
     "Origin",
     tuple(ipn.get_Available_City())
