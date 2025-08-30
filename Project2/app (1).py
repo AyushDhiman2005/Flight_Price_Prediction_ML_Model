@@ -47,7 +47,7 @@ st.sidebar.divider()
 
 number_of_Stops = st.sidebar.slider(
     "Number of Stops",
-    0,3,1,4
+    0,3,1
 )
 st.sidebar.divider()
 
